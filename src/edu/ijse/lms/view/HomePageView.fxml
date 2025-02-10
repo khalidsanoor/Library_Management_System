@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ijse.lms.controller.HomePageController">
+   <children>
+      <Label layoutX="41.0" layoutY="23.0" prefHeight="43.0" prefWidth="250.0" text="Library" textFill="#eaeaef">
+         <font>
+            <Font name="System Bold" size="65.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="93.0" text="Management" textFill="#eaeaef">
+         <font>
+            <Font name="System Bold" size="65.0" />
+         </font>
+      </Label>
+      <Button alignment="BOTTOM_LEFT" graphicTextGap="10.0" layoutX="36.0" layoutY="193.0" mnemonicParsing="false" onAction="#btnMemberOnAction" prefHeight="46.0" prefWidth="129.0" style="-fx-background-color: transparent; -fx-background-radius: 15px; -fx-border-width: 0px 0px 2px 0x;" text="Member" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="USER" size="20" text="" />
+         </graphic>
+      </Button>
+      <Button alignment="BOTTOM_LEFT" graphicTextGap="10.0" layoutX="36.0" layoutY="240.0" mnemonicParsing="false" onAction="#btnBookOnAction" prefHeight="43.0" prefWidth="114.0" style="-fx-background-color: transparent; -fx-background-radius: 15px;" text="Book" textFill="#fffcfc">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="BOOK" />
+         </graphic>
+      </Button>
+      <Button alignment="BOTTOM_LEFT" graphicTextGap="10.0" layoutX="36.0" layoutY="284.0" mnemonicParsing="false" onAction="#btnBookCategoryOnAction" prefHeight="43.0" prefWidth="210.0" style="-fx-background-color: tramsparent;" text="Book Category" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="BOOK" />
+         </graphic>
+      </Button>
+      <Button alignment="BOTTOM_LEFT" graphicTextGap="10.0" layoutX="36.0" layoutY="328.0" mnemonicParsing="false" onAction="#btnIssueBookOnAction" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: transparent;" text="Issue Book" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="BOOK" />
+         </graphic>
+      </Button>
+      <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="36.0" layoutY="375.0" mnemonicParsing="false" onAction="#btnReturnBookOnAction" prefHeight="43.0" prefWidth="185.0" style="-fx-background-color: transparent;" text="Return Book" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="BOOK" />
+         </graphic>
+      </Button>
+      <FontAwesomeIcon fill="WHITE" glyphName="BOOK" layoutX="278.0" layoutY="92.0" size="60" tabSize="0" />
+      <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="36.0" layoutY="418.0" mnemonicParsing="false" onAction="#btnIssueAndReturnBookOnAction" prefHeight="43.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Issue And Return Details" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="BOOK" />
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
